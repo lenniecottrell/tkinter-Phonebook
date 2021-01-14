@@ -15,7 +15,7 @@ def load_gui(self):
         self.lbl_phone.grid(row=4, column=0, padx=(27,0), pady=(10,0),sticky=N+W)
         self.lbl_email = tk.Label(self.master, text='Email: ')
         self.lbl_email.grid(row=6, column=0, padx=(27,0), pady=(10,0),sticky=N+W)
-        self.lbl_user = tk.Label(self.master, text='User: ')
+        self.lbl_user = tk.Label(self.master, text='Contact: ')
         self.lbl_user.grid(row=0, column=2, padx=(0,0), pady=(10,0),sticky=N+W)
 
         self.txt_fname = tk.Entry(self.master,text='')
